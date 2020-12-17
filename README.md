@@ -31,7 +31,7 @@ Customize these commands in package.json based on your requirements.
 2. Add it to `svelte/src/main.js` as shown below
 
 ```javascript
-import Example from './Example.svelte';
+import Example from "./Example.svelte";
 
 const exampleDiv = document.querySelector("#example");
 if (exampleDiv) {
@@ -44,3 +44,7 @@ if (exampleDiv) {
 3. Add `<div id="#example"></div>` in any page where you want the `Example.svelte` to be shown.
 
 4. Contribute to the project.
+
+## Demo
+
+[https://webjeda.com/jekyll-svelte/](https://webjeda.com/jekyll-svelte/)
