@@ -41,7 +41,7 @@ if (exampleDiv) {
 }
 ```
 
-3. Add `<div id="#example"></div>` in any page where you want the `Example.svelte` to be shown.
+3. Add `<div id="example"></div>` in any page where you want the `Example.svelte` to be shown.
 
 4. Contribute to the project.
 
