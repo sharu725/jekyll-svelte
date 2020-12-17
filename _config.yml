@@ -1,4 +1,3 @@
 baseurl: /jekyll-svelte
-
 exclude:
   - svelte
