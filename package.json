@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "dev": "npm run --prefix svelte dev & jekyll serve",
+    "build": "npm run --prefix svelte dev & jekyll build"
+  }
+}
