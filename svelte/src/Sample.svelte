@@ -6,6 +6,7 @@
   .card {
     padding: 2rem 1rem;
     border: 1px solid #ddd;
+    margin-bottom: 3rem;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
     background-color: white;
   }

@@ -468,15 +468,15 @@
     			em = element("em");
     			em.textContent = "svelte";
     			t7 = text(" component.");
-    			add_location(strong, file$1, 22, 14, 384);
-    			add_location(p0, file$1, 22, 4, 374);
-    			attr_dev(button, "class", "svelte-8q2q1u");
-    			add_location(button, file$1, 23, 4, 417);
-    			add_location(em, file$1, 24, 23, 497);
-    			add_location(p1, file$1, 24, 4, 478);
-    			attr_dev(div, "class", "card svelte-8q2q1u");
-    			add_location(div, file$1, 21, 2, 351);
-    			add_location(section, file$1, 20, 0, 339);
+    			add_location(strong, file$1, 23, 14, 409);
+    			add_location(p0, file$1, 23, 4, 399);
+    			attr_dev(button, "class", "svelte-1b6zf0");
+    			add_location(button, file$1, 24, 4, 442);
+    			add_location(em, file$1, 25, 23, 522);
+    			add_location(p1, file$1, 25, 4, 503);
+    			attr_dev(div, "class", "card svelte-1b6zf0");
+    			add_location(div, file$1, 22, 2, 376);
+    			add_location(section, file$1, 21, 0, 364);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
