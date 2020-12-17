@@ -31,9 +31,11 @@ Customize these commands in package.json based on your requirements.
 2. Add it to `svelte/src/main.js` as shown below
 
 ```javascript
+import Example from './Example.svelte';
+
 const exampleDiv = document.querySelector("#example");
 if (exampleDiv) {
-  const about = new About({
+  const about = new Example({
     target: exampleDiv,
   });
 }
