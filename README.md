@@ -8,9 +8,11 @@ This is an attempt to combine Jekyll and Svelte so that we can use the best of b
 
 2. Install dependencies `npm --prefix svelte i`
 
-3. Run dev app `npm run dev`
+3. Install gems `bundle`
 
-4. Build app `npm run build`
+4. Run dev app `npm run dev`. Site will be served on `` http://127.0.0.1:4000``
+
+5. Build app `npm run build`
 
 `npm run dev` will run the following commands in parallel.
 

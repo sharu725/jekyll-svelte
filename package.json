@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "npm run --prefix svelte dev & jekyll serve",
-    "build": "npm run --prefix svelte build & jekyll build"
+    "dev": "npm run --prefix svelte dev & bundle exec jekyll serve --livereload --livereload-port 3000",
+    "build": "npm run --prefix svelte build && bundle exec jekyll build"
   }
 }
