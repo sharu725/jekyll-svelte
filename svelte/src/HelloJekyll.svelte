@@ -3,9 +3,9 @@
 </script>
 
 <style>
-	h1 {
+	h2 {
 		margin: 0;
-		font-size: 4rem;
+		font-size: 1.2rem;
 	}
 	section {
 		padding: 2rem 1rem;
@@ -17,6 +17,6 @@
 </style>
 
 <section>
-	<h1>Hello {name}!</h1>
+	<h2>Hello {name}!</h2>
 	<p>This is a <em>svelte</em> component.</p>
 </section>

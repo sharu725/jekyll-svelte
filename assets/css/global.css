@@ -4,3 +4,8 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: #fefefe;
 }
+
+.container {
+  max-width: 860px;
+  margin: 0 auto
+}
