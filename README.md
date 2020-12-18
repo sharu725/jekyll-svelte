@@ -10,19 +10,19 @@ This is an attempt to combine Jekyll and Svelte so that we can use the best of b
 
 3. Install gems `bundle`
 
-4. Run dev app `npm run dev`. Site will be served on `` http://127.0.0.1:4000``
+4. Run dev app `npm run dev`. Site will be served on `` http://127.0.0.1:4000`` with live-reload
 
 5. Build app `npm run build`
 
 `npm run dev` will run the following commands in parallel.
 
-- `npm run dev` on **/svelte**
-- `jekyll serve` on **/**
+- `npm run dev` on */svelte*
+- `jekyll serve` on */*
 
 `npm run build` will run the follwing commands in parallel.
 
-- `npm run build` on **/svelte**
-- `jekyll build` on **/**
+- `npm run build` on */svelte*
+- `jekyll build` on */*
 
 Customize these commands in package.json based on your requirements.
 
@@ -37,7 +37,7 @@ import Example from "./Example.svelte";
 
 const exampleDiv = document.querySelector("#example");
 if (exampleDiv) {
-  const about = new Example({
+  new Example({
     target: exampleDiv,
   });
 }
