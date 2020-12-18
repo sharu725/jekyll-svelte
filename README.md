@@ -22,13 +22,15 @@ This is an attempt to combine Jekyll and Svelte so that we can use the best of b
 import Example from "./Example.svelte";
 
 const exampleDiv = document.querySelector("#example");
+
+// mount the component only if the dom node is present
 exampleDiv &&
   new Example({
     target: exampleDiv,
   });
 ```
 
-3. Add `<div id="example"></div>` in any page where you want the `Example.svelte` component to be mounted.
+3. Add ```html <div id="example"></div>``` in any page where you want the `Example.svelte` component to be mounted.
 
 4. Contribute to the project.
 
