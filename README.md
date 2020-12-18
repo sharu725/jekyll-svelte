@@ -6,25 +6,11 @@ This is an attempt to combine Jekyll and Svelte so that we can use the best of b
 
 1. Clone the repository
 
-2. Install dependencies `npm --prefix svelte i`
+2. Install dependencies `npm run setup`
 
-3. Install gems `bundle`
+3. Run dev app `npm run dev`. Site will be served on ` http://127.0.0.1:4000` with live-reload
 
-4. Run dev app `npm run dev`. Site will be served on ` http://127.0.0.1:4000` with live-reload
-
-5. Build app `npm run build`
-
-`npm run dev` will run the following commands in parallel.
-
-- `npm run dev` on _/svelte_
-- `jekyll serve` on _/_
-
-`npm run build` will run the follwing commands in parallel.
-
-- `npm run build` on _/svelte_
-- `jekyll build` on _/_
-
-Customize these commands in package.json based on your requirements.
+4. Build app `npm run build`
 
 ## Adding Svelte components
 
