@@ -14,7 +14,6 @@
   }
 </style>
 
-<h1>Jekyll Svelte</h1>
 <section>
   <h2>About</h2>
   <p>This is a <em>svelte</em> component.</p>

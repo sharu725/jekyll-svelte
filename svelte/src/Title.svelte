@@ -1,19 +1,28 @@
 <script>
-    export let baseUrl;
+  export let baseUrl;
 </script>
-<div class="title">
-    <h1>Jekyll Svelte</h1>
-    <a href="https://github.com/sharu725/jekyll-svelte"><img width="20" src={`${baseUrl}/assets/images/github.svg`}
-            alt="github repo"></a>
-</div>
 
 <style>
-    .title {
-        display: flex;
-        align-items: center
-    }
+  .title {
+    display: flex;
+    align-items: center;
+  }
 
-    .title a {
-        margin-left: auto
-    }
+  .title .logo {
+    margin-left: auto;
+  }
+  .title .home {
+    text-decoration: none;
+    color: inherit;
+  }
 </style>
+
+<div class="title">
+  <a class="home" href={`${baseUrl}/`}>
+    <h1>Jekyll Svelte</h1>
+  </a>
+  <a class="logo" href="https://github.com/sharu725/jekyll-svelte"><img
+      width="20"
+      src={`${baseUrl}/assets/images/github.svg`}
+      alt="github repo" /></a>
+</div>
